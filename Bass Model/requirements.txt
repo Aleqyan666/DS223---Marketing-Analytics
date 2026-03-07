@@ -2,3 +2,4 @@ pandas
 scipy
 loguru
 matplotlib
+markdown-pdf

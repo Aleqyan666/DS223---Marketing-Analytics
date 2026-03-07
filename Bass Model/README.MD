@@ -111,7 +111,6 @@ M = market potential
 
 ```
 dataset_with_cagr.py
-preparation_of_adoption.py
 bass_estimation.py
 utils.py
 bass_model_analysis.ipynb

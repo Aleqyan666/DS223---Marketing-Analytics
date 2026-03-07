@@ -104,20 +104,3 @@ The estimation process identifies three parameters:
 - **M (market potential)** – representing the maximum possible adoption level.
 
 These parameters determine the shape and speed of the diffusion curve.
-
----
-
-# 7. Diffusion Visualization
-
-The predicted adoption pattern was visualized using Python and Matplotlib.
-
-```python
-plt.figure(figsize=(10,6))
-plt.plot(predicted,label="Predicted Adoption")
-plt.scatter(t,sales,label="Historical")
-plt.legend()
-plt.title("Bass Diffusion Curve")
-plt.xlabel("Time")
-plt.ylabel("Adoption")
-plt.savefig("img/diffusion_curve.png")
-plt.show()
